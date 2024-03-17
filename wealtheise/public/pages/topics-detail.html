@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Topic Detail Page</title>
+
+        <!-- CSS FILES -->        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+                        
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="../css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="../css/templatemo-topic-listing.css" rel="stylesheet">
+
+<!--
+
+TemplateMo 590 topic listing
+
+https://templatemo.com/tm-590-topic-listing
+
+-->
+    </head>
+    
+    <body id="top">
+        <script src="/js/script.js"></script>
+
+        <main>
+            <script src="/js/script.js"></script>
+            <nav class="navbar navbar-expand-lg ttsx">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <i class="bi-back"></i>
+                        <span>WAMS</span>
+                    </a>
+
+                    <div class="d-lg-none ms-auto me-4">
+                        <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+                    </div>
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-lg-5 me-lg-auto">
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="index.html#section_1">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="index.html#section_2">Browse Topics</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="index.html#section_3">How it works</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="">Veronica AI</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="index.html#section_5">Contact</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#section_5" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+
+                                <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="searchuser.html">Search User</a></li>
+
+                                    <li><a class="dropdown-item" href="contact.html">Contact Form</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <div class="d-none d-lg-block">
+                            <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            
+
+            <header class="site-header d-flex flex-column justify-content-center align-items-center">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">
+
+                        <div class="col-lg-5 col-12 mb-5">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item hell"><a href="index.html">Homepage</a></li>
+
+                                    <li class="breadcrumb-item active hell" aria-current="page">Web Design</li>
+                                </ol>
+                            </nav>
+
+                            <h2 class="brdi">Live Transaction Tracker </h2>
+                            <h6 class="brdo">Powered by Veronica AI</h6>
+                        </div>
+
+                        <div class="col-lg-5 col-12 travis">
+                            <div class="topics-detail-block shadow-lg kite">
+                                <div style="height: 400px; overflow-y: scroll; ">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Transaction ID</th>
+                                                <th>Sender Account</th>
+                                                <th>Receiver Account</th>
+                                                <th>Amount</th>
+                                                <th>Date</th>
+                                                <th>Time</th>
+                                                <th>International</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>1234567890</td>
+                                                <td>0987654321</td>
+                                                <td>$100</td>
+                                                <td>2024-03-12</td>
+                                                <td>10:30:00</td>
+                                                <td>No</td>
+                                                <td><button class="color-change-btn" onclick="changeColor(this)">Flag</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>9876543210</td>
+                                                <td>0123456789</td>
+                                                <td>$150</td>
+                                                <td>2024-03-11</td>
+                                                <td>09:45:00</td>
+                                                <td>Yes</td>
+                                                <td><button class="color-change-btn" onclick="changeColor(this)">Flag</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>5432167890</td>
+                                                <td>9876543210</td>
+                                                <td>$200</td>
+                                                <td>2024-03-10</td>
+                                                <td>12:15:00</td>
+                                                <td>No</td>
+                                                <td><button class="color-change-btn" onclick="changeColor(this)">Flag</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td>6543210987</td>
+                                                <td>2345678901</td>
+                                                <td>$75</td>
+                                                <td>2024-03-09</td>
+                                                <td>14:20:00</td>
+                                                <td>Yes</td>
+                                                <td><button class="color-change-btn" onclick="changeColor(this)">Flag</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>5</td>
+                                                <td>0123456789</td>
+                                                <td>5432167890</td>
+                                                <td>$300</td>
+                                                <td>2024-03-08</td>
+                                                <td>11:30:00</td>
+                                                <td>No</td>
+                                                <td><button class="color-change-btn" onclick="changeColor(this)">Flag</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>6</td>
+                                                <td>2345678901</td>
+                                                <td>6543210987</td>
+                                                <td>$90</td>
+                                                <td>2024-03-07</td>
+                                                <td>13:45:00</td>
+                                                <td>Yes</td>
+                                                <td><button class="color-change-btn" onclick="changeColor(this)">Flag</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>7</td>
+                                                <td>3456789012</td>
+                                                <td>7654321098</td>
+                                                <td>$125</td>
+                                                <td>2024-03-06</td>
+                                                <td>10:00:00</td>
+                                                <td>No</td>
+                                                <td><button class="color-change-btn" onclick="changeColor(this)">Flag</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>8</td>
+                                                <td>4567890123</td>
+                                                <td>8765432109</td>
+                                                <td>$250</td>
+                                                <td>2024-03-05</td>
+                                                <td>08:20:00</td>
+                                                <td>Yes</td>
+                                                <td><button class="color-change-btn" onclick="changeColor(this)">Flag</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>9</td>
+                                                <td>5678901234</td>
+                                                <td>9876543210</td>
+                                                <td>$180</td>
+                                                <td>2024-03-04</td>
+                                                <td>15:10:00</td>
+                                                <td>No</td>
+                                                <td><button class="color-change-btn" onclick="changeColor(this)">Flag</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>10</td>
+                                                <td>6789012345</td>
+                                                <td>0987654321</td>
+                                                <td>$350</td>
+                                                <td>2024-03-03</td>
+                                                <td>12:00:00</td>
+                                                <td>Yes</td>
+                                                <td><button class="color-change-btn" onclick="changeColor(this)">Flag</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>11</td>
+                                                <td>7890123456</td>
+                                                <td>1098765432</td>
+                                                <td>$120</td>
+                                                <td>2024-03-02</td>
+                                                <td>09:15:00</td>
+                                                <td>No</td>
+                                                <td><button class="color-change-btn" onclick="changeColor(this)">Flag</button></td>
+                                            </tr>
+                                            
+                                            <!-- Add more rows as needed -->
+                                        </tbody>
+                                    </table>
+                                </div>
+                              </div>
+     
+
+<!-- Modal -->
+          <div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Row information</h4>
+      </div>
+      <div class="modal-body">
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+   </div>
+                                  
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </header>
+            <script>
+                function changeColor(button) {
+                    var row = button.parentNode.parentNode;
+                    if (row.style.backgroundColor === 'yellow') {
+                        row.style.backgroundColor = '';
+                    } else {
+                        row.style.backgroundColor = '#f05c5c77';
+                    }
+                }
+            </script>
+
+            
+        
+</html>
